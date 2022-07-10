@@ -8,7 +8,7 @@ jobs:
       # from https://developer.salesforce.com/tools/sfdxcli
       - DX_CLI_URL: https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz
       - TESTLEVEL: RunLocalTests
-      - DEPLOYDIR: src
+      - DEPLOYDIR: force-app/main/default
     steps:
       - checkout
       - run:
